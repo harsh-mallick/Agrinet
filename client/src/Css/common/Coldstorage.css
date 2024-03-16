@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.input-cstorage p {
+    margin-bottom: 0;
+}
+
+.body-cstorage {
+    background-image: url(../../Images/cold-storage-warehouse.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.container-cstorage {
+    background-color: #00796bde;
+    width: 60vw;
+    height: auto;
+    padding: 1.6rem;
+    border-radius: 15px 50px;
+}
+
+.container-cstorage h2 {
+    align-self: center;
+    width: 100%;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.form-cstorage .input-cstorage {
+    margin-block: 2rem;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-cstorage {
+    width: 100%;
+}
+
+.input-cstorage input {
+    height: 1.5rem;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px white;
+    outline: none;
+}
+
+.wrapper-cstorage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-cstorage .img-cstorage img {
+    height: 15.5rem;
+    border-radius: 5px;
+}
+
+.img-cstorage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-cstorage input::placeholder {
+    color: rgba(255, 255, 255, 0.579);
+    padding: 10px;
+}
+
+.container1-cstorage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container1-cstorage .button {
+    border: none;
+    background-color: #516395;
+    background-image: linear-gradient(to right, #614385 0%, #516395 51%, #614385 100%);
+    width: 100%;
+    align-self: center;
+    height: 2rem;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border-radius: 13px 30px;
+    color: white;
+    cursor: pointer;
+}

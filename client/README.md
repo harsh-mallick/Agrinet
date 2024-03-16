@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+![Logo](https://i.ibb.co/M6YCcb2/91009302085.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Agrinet
 
-## Available Scripts
+This is the first full fledged webiste that me (Harsh Mallick) and my team-mate (Piyush Raj) have made using MERN Stack.
+The aim of the website is to connect the Farmers, Buyers, Transporters and Cold Storage owners making it easy for farmers to sell and store their purchased grains. The webiste also helps to eliminate middle-man offring maximum price according to the quality of crop.
 
-In the project directory, you can run:
+## Run Locally
 
-### `npm start`
+Clone the project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+   git clone https://github.com/harsh-mallick/Agrinet.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Go to the project directory
 
-### `npm test`
+```bash
+  cd Agrinet
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install client side dependencies
 
-### `npm run build`
+```bash
+  cd client
+  npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install server side dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  cd ../server
+  npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the client side server(In first terminal)
 
-### `npm run eject`
+```bash
+  cd ../client
+  npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start the server side server(In second terminal)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  cd ../server
+  npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Client:** React, Bootstrap CSS, Maptiler, Weather.com
 
-## Learn More
+**Server:** Node, Express, MongoDb
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Bootstrap CSS](https://getbootstrap.com)
+- [Maptiler](https://www.maptiler.com)
+- [MongoDb](https://www.mongodb.com/atlas/databaset)
 
-### Code Splitting
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you have any feedback, please reach out to us at harshmallick052009@gmail.com
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Harsh Mallick](https://www.github.com/harsh-mallick)
+- [Piyush Raj](https://www.github.com/piyush981848)
